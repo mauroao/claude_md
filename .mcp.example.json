@@ -8,6 +8,17 @@
         "-y",
         "chrome-devtools-mcp@latest"
       ]
+    },
+    "sqlserver": {
+      "command": "mcp-sqlserver",
+      "env": {
+        "SQLSERVER_HOST": "aaaaa.rds.amazonaws.com",
+        "SQLSERVER_USER": "aaa",
+        "SQLSERVER_PASSWORD": "",
+        "SQLSERVER_DATABASE": "content",
+        "SQLSERVER_ENCRYPT": "true",
+        "SQLSERVER_TRUST_CERT": "true"
+      }
     }
   }
 }
